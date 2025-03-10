@@ -10,6 +10,7 @@
 
 #include "abcc_api_command_handler_lookup.h"
 #include "abcc_log.h"
+#include "abcc_api.h"
 
 static BOOL8 fFirmwareAvailable = FALSE;
 static UINT32 lSerialNumber = 0xFF000001;

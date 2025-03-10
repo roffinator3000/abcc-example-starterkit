@@ -34,7 +34,6 @@ set(starter_kit_example_SRCS
   ${PROJECT_SOURCE_DIR}/src/abcc_adaptation/abcc_software_port.c
   ${PROJECT_SOURCE_DIR}/src/abcc_adaptation/abcc_hardware_abstraction.c
   ${PROJECT_SOURCE_DIR}/src/abcc_adaptation/pctransportprovider/imp_tp.c
-  ${PROJECT_SOURCE_DIR}/stdafx.cpp
 )
 
 # Include (.h) files related to the user host application.
