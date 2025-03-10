@@ -8,6 +8,7 @@
 ********************************************************************************
 */
 
+#include "abcc_types.h"
 #include "abcc_api_command_handler_lookup.h"
 #include "abcc_log.h"
 #include "abcc_api.h"
@@ -40,7 +41,7 @@ void ABCC_CbfApplicationObjFirmwareAvailable_Set( BOOL8 fValue )
    ABCC_LOG_INFO( "Candidate FW flag: %u\n", fValue );
 }
 
-UINT8 ABCC_CbfApplicationObjFirmwareAvailable_Get( void )
+BOOL8 ABCC_CbfApplicationObjFirmwareAvailable_Get( void )
 {
    /* Return FW flag from non-volatile storage (NVS). */
    return( fFirmwareAvailable );
