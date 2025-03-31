@@ -25,8 +25,10 @@ git submodule update --init --recursive
 ```
 
 ## Build and run
-### CMake
-This example application utilizes the Anybus CompactCom Driver API's CMake module file in a top level CMakelLists.txt file to generate a complete Visual Studio project. To generate the project, run the lines below, starting in the repository root.
+### Step 1. CMake
+This example application utilizes the Anybus CompactCom Driver API's CMake module file in a top level CMakelLists.txt file to generate a complete Visual Studio project.
+
+To generate the project, run the lines below, starting in the repository root.
 ```
 mkdir build
 ```
@@ -37,7 +39,7 @@ cd build
 cmake ..
 ```
 
-### Visual Studio
+### Step 2. Visual Studio
 Open the generated project solution *.sln* file and run the Local Windows Debugger (green play button). The Project should build and run!
 #### (Nothing is happening...)
 Make sure that your Starter Kit is powered on and the USB cable is plugged in. See the [Starter Kit Reference Guide](https://hmsnetworks.blob.core.windows.net/nlw/docs/default-source/products/anybus/manuals-and-guides---manuals/hms-hmsi-27-224.pdf?sfvrsn=8dfb9d6_20) for more details.
