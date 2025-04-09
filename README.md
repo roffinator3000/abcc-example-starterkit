@@ -13,7 +13,7 @@ To enable easy evaluation and inspiration to [Anybus CompactCom](https://www.hms
 
 ## Cloning
 ### Flag? What flag?
-This repository contain submodules [abcc-driver-api](https://github.com/hms-networks/abcc-api), ([abcc-driver](https://github.com/hms-networks/abcc-driver) and [abcc-abp](https://github.com/hms-networks/abcc-abp) that must be initialized. Therefore, pass the flag `--recurse-submodules` when cloning.
+This repository contain submodules [abcc-driver-api](https://github.com/hms-networks/abcc-api), [abcc-driver](https://github.com/hms-networks/abcc-driver) and [abcc-abp](https://github.com/hms-networks/abcc-abp) that must be initialized. Therefore, pass the flag `--recurse-submodules` when cloning.
 
 ```
 git clone --recurse-submodules https://github.com/hms-networks/abcc-example-starterkit.git
