@@ -10,6 +10,8 @@ To enable easy evaluation and inspiration to [Anybus CompactCom](https://www.hms
 - The free Anybus Transport Provider DLL is required. [Download](https://hmsnetworks.blob.core.windows.net/nlw/docs/default-source/products/anybus/monitored/software/hms-anybus-transport-provider-1.zip?sfvrsn=e636aad6_44) and install this DLL.
 ### CMake
 - If you do not yet have CMake, [download](https://cmake.org/download/) and install it before continuing.
+### Git
+- Of course, you will need to have Git installed. See [this tutorial](https://github.com/git-guides/install-git) on how to install Git.
 
 ## Cloning
 ### Flag? What flag?
