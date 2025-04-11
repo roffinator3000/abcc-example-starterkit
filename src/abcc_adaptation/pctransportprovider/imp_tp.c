@@ -1,19 +1,8 @@
 /*******************************************************************************
+** Copyright 2025-present HMS Industrial Networks AB.
+** Licensed under the MIT License.
 ********************************************************************************
-**                                                                            **
-** ABCC Starter Kit version 390fce4 (2024-10-25)                              **
-**                                                                            **
-** Delivered with:                                                            **
-**    ABP            c799efc (2024-05-14)                                     **
-**    ABCC Driver    edc67ee (2024-10-25)                                     **
-**                                                                            */
-//******************************************************************************
-// COPYRIGHT NOTIFICATION (c) 2013 HMS Industrial Networks AB
-//
-// This program is the property of HMS Industrial Networks AB.
-// It may not be reproduced, distributed, or used without permission
-// of an authorised company official.
-//******************************************************************************
+*/
 
 // make sure to disable precompiled headers for this file!
 // in Visual Studio 2008:
